@@ -1,0 +1,23 @@
+.banner {
+  background-size: cover;
+  height: 93vh;
+  color: #E6E6E6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-content {
+  position: absolute;
+
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+}

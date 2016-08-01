@@ -1,0 +1,8 @@
+<ul class="list-inline text-center">
+  <% ["Oscar", "Jean", "Guillaume"].each do |member| %>
+    <li class= "spaced-li">
+      <%= image_tag "http://placehold.it/150x150", class: "img-circle" %>
+      <h3><%= member.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
